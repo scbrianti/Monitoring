@@ -10,7 +10,7 @@
     <title>Gerenciador Dongles</title>
 
     <link rel="stylesheet" href="css/style.css">  
-
+    <script type="text/javascript" src="js/js.min.js"></script>    
 </head>
 
 <body>
@@ -52,8 +52,6 @@
         <div class="footer__devel">Desenvolvido por <a target="_blank" href="#">AzTell</a></div>
     </div>
 </div>
-
-<script src="js/js.min.js"></script>
 
 </body>
 </html>
