@@ -204,7 +204,8 @@ foreach(explode("\n", $modens['data']) as $line) {
                 preg_match("/Waiting/i", $line) OR 
                 preg_match("/Dialing/i", $line) OR 
                 preg_match("/Active/i", $line) OR 
-                preg_match("/Free/i", $line) OR 
+                preg_match("/Free/i", $line) OR
+	        preg_match("/Incoming/i", $line) OR 
                 preg_match("/SMS/i", $line)){
 
                         $gsm[] = $line;
